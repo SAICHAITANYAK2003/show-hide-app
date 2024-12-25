@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.main-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.action-btn-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+.first-button {
+  height: 50px;
+  width: 170px;
+  color: #dd1264;
+  border-width: 0px;
+  border-radius: 15px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.last-button {
+  height: 50px;
+  width: 170px;
+  color: #dd1264;
+  border-width: 0px;
+  border-radius: 15px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.text{
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 30px;
+  background-color: #fddddb;
+  border-radius: 20px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+
+}
+
+@media screen and (max-width:580px){
+  .main-container{
+    height: 150vh;
+  }
+  .action-btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+  }
+
+}
